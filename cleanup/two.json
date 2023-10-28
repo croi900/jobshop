@@ -1,0 +1,139 @@
+{
+    "machines": [
+        {
+            "capacity": 1,
+            "cooldown": 0,
+            "id": 1,
+            "name": "Band saw"
+        },
+        {
+            "capacity": 1,
+            "cooldown": 0,
+            "id": 2,
+            "name": "Lathe"
+        },
+        {
+            "capacity": 1,
+            "cooldown": 0,
+            "id": 3,
+            "name": "Knee Mill"
+        },
+        {
+            "capacity": 1,
+            "cooldown": 600,
+            "id": 4,
+            "name": "Part washer"
+        },
+        {
+            "capacity": 2,
+            "cooldown": 0,
+            "id": 5,
+            "name": "Dual-spindle machining center"
+        },
+        {
+            "capacity": 0,
+            "cooldown": 0,
+            "id": 6,
+            "name": "Rotary tumbler"
+        }
+    ],
+    "name": "Input_Two.txt",
+    "parts": [
+        {
+            "amount": 6,
+            "id": 1,
+            "name": "Door knob ",
+            "process": [
+                {
+                    "duration": 150.0,
+                    "machine": 1
+                },
+                {
+                    "duration": 1200.0,
+                    "machine": 2
+                },
+                {
+                    "duration": 100.0,
+                    "machine": 4
+                }
+            ]
+        },
+        {
+            "amount": 12,
+            "id": 2,
+            "name": "Pen ",
+            "process": [
+                {
+                    "duration": 50.0,
+                    "machine": 1
+                },
+                {
+                    "duration": 2000.0,
+                    "machine": 2
+                },
+                {
+                    "duration": 1200.0,
+                    "machine": 3
+                },
+                {
+                    "duration": 600.0,
+                    "machine": 6
+                },
+                {
+                    "duration": 200.0,
+                    "machine": 4
+                }
+            ]
+        },
+        {
+            "amount": 1,
+            "id": 3,
+            "name": "Keyboard frame ",
+            "process": [
+                {
+                    "duration": 200.0,
+                    "machine": 1
+                },
+                {
+                    "duration": 8000.0,
+                    "machine": 5
+                },
+                {
+                    "duration": 600.0,
+                    "machine": 6
+                },
+                {
+                    "duration": 600.0,
+                    "machine": 4
+                }
+            ]
+        },
+        {
+            "amount": 4,
+            "id": 4,
+            "name": "Intake manifold ",
+            "process": [
+                {
+                    "duration": 2000.0,
+                    "machine": 1
+                },
+                {
+                    "duration": 4000.0,
+                    "machine": 3
+                },
+                {
+                    "duration": 30000.0,
+                    "machine": 5
+                },
+                {
+                    "duration": 3500.0,
+                    "machine": 6
+                },
+                {
+                    "duration": 1200.0,
+                    "machine": 4
+                }
+            ]
+        }
+    ]
+}

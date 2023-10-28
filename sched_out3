@@ -1,0 +1,94 @@
+Building configurations...
+Running action 'gmake2'...
+Done (30ms).
+==== Building Internship (debug) ====
+Creating obj/Debug
+job.cpp
+machine.cpp
+machine_edit_window.cpp
+main_window.cpp
+main.cpp
+main_window_events.cpp
+main_window_paint.cpp
+main_window_load.cpp
+parse_utils.cpp
+scheduler.cpp
+part.cpp
+part_edit_window.cpp
+token_stream.cpp
+text2num.cpp
+Linking Internship
+x: 5 y: 7 z: 7
+@pid: 11 v: 1
+pid: 1 u: 1 v: 2
+pid: 1 u: 2 v: 4
+
+@pid: 21 v: 1
+pid: 2 u: 1 v: 2
+pid: 2 u: 2 v: 3
+pid: 2 u: 3 v: 6
+pid: 2 u: 6 v: 4
+
+@pid: 31 v: 1
+pid: 3 u: 1 v: 5
+pid: 3 u: 5 v: 6
+pid: 3 u: 6 v: 4
+
+@pid: 41 v: 1
+pid: 4 u: 1 v: 3
+pid: 4 u: 3 v: 5
+pid: 4 u: 5 v: 6
+pid: 4 u: 6 v: 4
+
+Part 1: 
+1 1 0 0 0 0 
+1 0 0 1 0 0 
+0 0 0 0 0 0 
+0 1 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+Part 2: 
+1 1 0 0 0 0 
+1 0 1 0 0 0 
+0 1 0 0 0 1 
+0 0 0 0 0 1 
+0 0 0 0 0 0 
+0 0 1 1 0 0 
+
+Part 3: 
+1 0 0 0 1 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 1 
+1 0 0 0 0 1 
+0 0 0 1 1 0 
+
+Part 4: 
+1 0 1 0 0 0 
+0 0 0 0 0 0 
+1 0 0 0 1 0 
+0 0 0 0 0 1 
+0 0 1 0 0 1 
+0 0 0 1 1 0 
+
+
+Time Matrix (T):
+150		1200		0		700		0		0		
+50		2000		1200		800		0		600		
+200		0		0		1200		8000		600		
+2000		0		4000		1800		3000		3500		
+
+Accumulated Time Matrix(T2):
+150		1350		0		2050		0		0		
+50		2050		3250		4050		0		4650		
+200		0		0		1400		9400		10000		
+2000		0		6000		7800		10800		14300		
+
+Schedule Queue(Q):
+Machine 1: [ 2, 0 ] [ 1, 100 ] [ 3, 500 ] [ 4, 1400 ] 
+Machine 2: [ 2, 50 ] [ 1, 2300 ] 
+Machine 3: [ 2, 2050 ] [ 4, 6650 ] 
+Machine 4: [ 2, 3850 ] [ 1, 8150 ] [ 3, 22000 ] [ 4, 62200 ] 
+Machine 5: [ 3, 700 ] [ 4, 19350 ] 
+Machine 6: [ 2, 3250 ] [ 3, 12550 ] [ 4, 35500 ] 

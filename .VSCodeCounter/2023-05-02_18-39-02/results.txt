@@ -1,0 +1,83 @@
+Date : 2023-05-02 18:39:02
+Directory : /home/croi/code/cpp/internship_challange
+Total : 42 files,  21208 codes, 4632 comments, 3562 blanks, all 29402 lines
+
+Languages
++--------------+------------+------------+------------+------------+------------+
+| language     | files      | code       | comment    | blank      | total      |
++--------------+------------+------------+------------+------------+------------+
+| C++          |         29 |     19,088 |      4,533 |      3,445 |     27,066 |
+| JSON         |          5 |        695 |          0 |          0 |        695 |
+| XML          |          1 |        693 |         26 |          1 |        720 |
+| Log          |          1 |        341 |          0 |         23 |        364 |
+| LaTeX        |          1 |        161 |          0 |         39 |        200 |
+| Lua          |          2 |        152 |         64 |         33 |        249 |
+| Python       |          1 |         41 |          7 |          9 |         57 |
+| Makefile     |          1 |         36 |          1 |         11 |         48 |
+| Shell Script |          1 |          1 |          1 |          1 |          3 |
++--------------+------------+------------+------------+------------+------------+
+
+Directories
++------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                         | files      | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                            |         42 |     21,208 |      4,632 |      3,562 |     29,402 |
+| . (Files)                                                                    |          7 |      1,034 |         96 |         50 |      1,180 |
+| cleanup                                                                      |          4 |        556 |          0 |          0 |        556 |
+| doc                                                                          |          2 |        502 |          0 |         62 |        564 |
+| include                                                                      |         15 |     17,776 |      4,399 |      3,112 |     25,287 |
+| include (Files)                                                              |          7 |     17,564 |      4,379 |      3,041 |     24,984 |
+| include/gui                                                                  |          6 |        133 |          6 |         48 |        187 |
+| include/text2num                                                             |          2 |         79 |         14 |         23 |        116 |
+| scripts                                                                      |          1 |         41 |          7 |          9 |         57 |
+| src                                                                          |         13 |      1,299 |        130 |        329 |      1,758 |
++------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++------------------------------------------------------------------------------+--------------+------------+------------+------------+------------+
+| filename                                                                     | language     | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------+--------------+------------+------------+------------+------------+
+| /home/croi/code/cpp/internship_challange/Makefile                            | Makefile     |         36 |          1 |         11 |         48 |
+| /home/croi/code/cpp/internship_challange/build.sh                            | Shell Script |          1 |          1 |          1 |          3 |
+| /home/croi/code/cpp/internship_challange/cleanup/nigga.json                  | JSON         |        139 |          0 |          0 |        139 |
+| /home/croi/code/cpp/internship_challange/cleanup/two.json                    | JSON         |        139 |          0 |          0 |        139 |
+| /home/croi/code/cpp/internship_challange/cleanup/two2.json                   | JSON         |        139 |          0 |          0 |        139 |
+| /home/croi/code/cpp/internship_challange/cleanup/two3.json                   | JSON         |        139 |          0 |          0 |        139 |
+| /home/croi/code/cpp/internship_challange/doc/atestat.log                     | Log          |        341 |          0 |         23 |        364 |
+| /home/croi/code/cpp/internship_challange/doc/atestat.tex                     | LaTeX        |        161 |          0 |         39 |        200 |
+| /home/croi/code/cpp/internship_challange/include/error_codes.hpp             | C++          |          7 |          2 |          3 |         12 |
+| /home/croi/code/cpp/internship_challange/include/gui/child_window.hpp        | C++          |         11 |          1 |          4 |         16 |
+| /home/croi/code/cpp/internship_challange/include/gui/machine_edit_window.hpp | C++          |         29 |          0 |          6 |         35 |
+| /home/croi/code/cpp/internship_challange/include/gui/main_window.hpp         | C++          |         61 |          1 |         23 |         85 |
+| /home/croi/code/cpp/internship_challange/include/gui/part_edit_window.hpp    | C++          |         29 |          4 |         11 |         44 |
+| /home/croi/code/cpp/internship_challange/include/gui/schedule_window.hpp     | C++          |          0 |          0 |          1 |          1 |
+| /home/croi/code/cpp/internship_challange/include/gui/tree_window.hpp         | C++          |          3 |          0 |          3 |          6 |
+| /home/croi/code/cpp/internship_challange/include/job.hpp                     | C++          |         38 |         15 |         15 |         68 |
+| /home/croi/code/cpp/internship_challange/include/json.hpp                    | C++          |     17,373 |      4,322 |      2,980 |     24,675 |
+| /home/croi/code/cpp/internship_challange/include/machine.hpp                 | C++          |         33 |          0 |          8 |         41 |
+| /home/croi/code/cpp/internship_challange/include/parse_utils.hpp             | C++          |         46 |         11 |         15 |         72 |
+| /home/croi/code/cpp/internship_challange/include/part.hpp                    | C++          |         22 |          5 |          6 |         33 |
+| /home/croi/code/cpp/internship_challange/include/scheduler.hpp               | C++          |         45 |         24 |         14 |         83 |
+| /home/croi/code/cpp/internship_challange/include/text2num/text2num.hpp       | C++          |         22 |          9 |          9 |         40 |
+| /home/croi/code/cpp/internship_challange/include/text2num/token_stream.hpp   | C++          |         57 |          5 |         14 |         76 |
+| /home/croi/code/cpp/internship_challange/main.cpp                            | C++          |         13 |          4 |          4 |         21 |
+| /home/croi/code/cpp/internship_challange/penis.json                          | JSON         |        139 |          0 |          0 |        139 |
+| /home/croi/code/cpp/internship_challange/premake5.lua                        | Lua          |         15 |          0 |          4 |         19 |
+| /home/croi/code/cpp/internship_challange/schedule.svg                        | XML          |        693 |         26 |          1 |        720 |
+| /home/croi/code/cpp/internship_challange/scripts/visualizer.py               | Python       |         41 |          7 |          9 |         57 |
+| /home/croi/code/cpp/internship_challange/src/job.cpp                         | C++          |        427 |         49 |         89 |        565 |
+| /home/croi/code/cpp/internship_challange/src/machine.cpp                     | C++          |         33 |          0 |         10 |         43 |
+| /home/croi/code/cpp/internship_challange/src/machine_edit_window.cpp         | C++          |         48 |          2 |         13 |         63 |
+| /home/croi/code/cpp/internship_challange/src/main_window.cpp                 | C++          |         75 |         14 |         25 |        114 |
+| /home/croi/code/cpp/internship_challange/src/main_window_events.cpp          | C++          |         67 |          0 |         22 |         89 |
+| /home/croi/code/cpp/internship_challange/src/main_window_load.cpp            | C++          |         60 |          8 |         18 |         86 |
+| /home/croi/code/cpp/internship_challange/src/main_window_paint.cpp           | C++          |          1 |          2 |          2 |          5 |
+| /home/croi/code/cpp/internship_challange/src/parse_utils.cpp                 | C++          |        120 |         13 |         21 |        154 |
+| /home/croi/code/cpp/internship_challange/src/part.cpp                        | C++          |         19 |          0 |          8 |         27 |
+| /home/croi/code/cpp/internship_challange/src/part_edit_window.cpp            | C++          |         39 |          2 |         15 |         56 |
+| /home/croi/code/cpp/internship_challange/src/scheduler.cpp                   | C++          |        231 |         10 |         59 |        300 |
+| /home/croi/code/cpp/internship_challange/src/text2num.cpp                    | C++          |        145 |         30 |         39 |        214 |
+| /home/croi/code/cpp/internship_challange/src/token_stream.cpp                | C++          |         34 |          0 |          8 |         42 |
+| /home/croi/code/cpp/internship_challange/use_wxwidgets.lua                   | Lua          |        137 |         64 |         29 |        230 |
+| Total                                                                        |              |     21,208 |      4,632 |      3,562 |     29,402 |
++------------------------------------------------------------------------------+--------------+------------+------------+------------+------------+

@@ -1,0 +1,109 @@
+=============================FROM JSON LOAD=============================
+Machines:
+	Band saw [ID: 1]
+		->Capacity: 1
+		->Cooldown: 0
+	Lathe [ID: 2]
+		->Capacity: 1
+		->Cooldown: 0
+	Knee Mill [ID: 3]
+		->Capacity: 1
+		->Cooldown: 0
+	Part washer [ID: 4]
+		->Capacity: 1
+		->Cooldown: 600
+	Dual-spindle machining center [ID: 5]
+		->Capacity: 2
+		->Cooldown: 0
+	Rotary tumbler [ID: 6]
+		->Capacity: 0
+		->Cooldown: 0
+
+Parts & Orders:
+	Door knob  [ID: 1]
+		->Amont: 6
+		->Process: 
+			1. Band saw
+			2. Lathe
+			3. Part washer
+	Pen  [ID: 2]
+		->Amont: 12
+		->Process: 
+			1. Band saw
+			2. Lathe
+			3. Knee Mill
+			4. Rotary tumbler
+			5. Part washer
+	Keyboard frame  [ID: 3]
+		->Amont: 1
+		->Process: 
+			1. Band saw
+			2. Dual-spindle machining center
+			3. Rotary tumbler
+			4. Part washer
+	Intake manifold  [ID: 4]
+		->Amont: 4
+		->Process: 
+			1. Band saw
+			2. Knee Mill
+			3. Dual-spindle machining center
+			4. Rotary tumbler
+			5. Part washer
+
+========================================================================
+Machines:
+	Band saw [ID: 1]
+		->Capacity: 1
+		->Cooldown: 0
+	Lathe [ID: 2]
+		->Capacity: 1
+		->Cooldown: 0
+	Knee Mill [ID: 3]
+		->Capacity: 1
+		->Cooldown: 0
+	Part washer [ID: 4]
+		->Capacity: 1
+		->Cooldown: 600
+	Dual-spindle machining center [ID: 5]
+		->Capacity: 2
+		->Cooldown: 0
+	Rotary tumbler [ID: 6]
+		->Capacity: 0
+		->Cooldown: 0
+
+Parts & Orders:
+	Door knob  [ID: 1]
+		->Amont: 6
+		->Process: 
+			1. Band saw
+			2. Lathe
+			3. Part washer
+	Pen  [ID: 2]
+		->Amont: 12
+		->Process: 
+			1. Band saw
+			2. Lathe
+			3. Knee Mill
+			4. Rotary tumbler
+			5. Part washer
+	Keyboard frame  [ID: 3]
+		->Amont: 1
+		->Process: 
+			1. Band saw
+			2. Dual-spindle machining center
+			3. Rotary tumbler
+			4. Part washer
+	Intake manifold  [ID: 4]
+		->Amont: 4
+		->Process: 
+			1. Band saw
+			2. Knee Mill
+			3. Dual-spindle machining center
+			4. Rotary tumbler
+			5. Part washer
+
+Keyboard frame 
+Pen 
+Keyboard frame 
+Pen 
+Keyboard frame 

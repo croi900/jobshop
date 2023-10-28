@@ -1,0 +1,64 @@
+#ifndef WIDGET_LIST_HGUARD
+#define WIDGET_LIST_HGUARD
+
+#include <wx-3.2/wx/wx.h>
+#include <map>
+
+
+enum wxWidgetListStyle
+{
+    WL_LOOK_CRAZY = 1,
+    WL_LOOK_SERIOUS = 2,
+    WL_SHOW_BUTTON = 4,
+    WL_DEFAULT_STYLE = (WL_SHOW_BUTTON|WL_LOOK_SERIOUS)
+};
+// template<typename T
+class wxWidgetList : public wxControl
+{
+public:
+    wxWidgetList() { Init(); }
+    wxWidgetList(   wxWindow *parent,
+                    wxWindowID winid,
+                    const wxString& label,
+                    const wxPoint& pos = wxDefaultPosition,
+                    const wxSize& size = wxDefaultSize,
+                    long style = WL_DEFAULT_STYLE,
+                    const wxValidator& val = wxDefaultValidator,
+                    const wxString& name = "wxWidgetList")
+    {
+        Init();
+        Create(parent, winid, label, pos, size, style, val, name);
+    }
+    bool Create(wxWindow *parent,
+                wxWindowID winid,
+                const wxString& label,
+                const wxPoint& pos = wxDefaultPosition,
+                const wxSize& size = wxDefaultSize,
+                long style = WL_DEFAULT_STYLE,
+                const wxValidator& val = wxDefaultValidator,
+                const wxString& name = "Widget List Control");
+
+    bool AddWidget(wxObject* obj, std::size_t list_id);
+    // accessors...
+protected:
+    void Init() {
+        // init widget's internals...
+    }
+    // virtual wxSize DoGetBestSize() const {
+    //     // we need to calculate and return the best size of the widget...
+    // }
+    // void OnPaint(wxPaintEvent&) {
+    //     // draw the widget on a wxDC...
+    // }
+private:
+    wxDECLARE_DYNAMIC_CLASS(wxWidgetList);
+    wxDECLARE_EVENT_TABLE();
+
+    std::map<std::size_t, wxObject*> widgets;
+};
+
+
+
+
+
+#endif
